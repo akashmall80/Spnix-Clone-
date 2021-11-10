@@ -1,0 +1,74 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /* border: 2px solid black; */
+}
+
+.contact p{
+    width: 30%;
+    margin-left: 70%;
+    color: aliceblue;
+    
+}
+.contact{
+    background-color: #2d2f30;
+    padding: 10px;
+}
+.nav ul li{
+    display: inline-block;
+   margin-left: 20px;
+    font-size:18px ;
+
+}
+.nav ul{
+    width:50%;
+    text-align: center;
+    margin-left: 50%;
+}
+.nav{
+    padding: 50px;
+    background-color: #212125;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    /* color: whitesmoke; */
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+.lines{
+    background-image: url(home-banner.jpg);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.content
+{
+    margin-top: 20%;
+    margin-left: 50%;
+    color: whitesmoke;
+    font-size: 30px;
+   
+}
+a{
+    padding: 10px 20px;
+    color: whitesmoke;
+}
+.nav ul li a:hover{
+    background-color:#2d2f30 ;
+    color: greenyellow ;
+    -webkit-transition: all 1s ease-out;
+-moz-transition: all 1s ease-out;
+-o-transition: all 1s ease-out;
+transition: all 1s ease-out;
+    
+}
+.contactus{
+    background-color: greenyellow;
+    color: #000;
+}
